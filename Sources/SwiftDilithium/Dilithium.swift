@@ -14,7 +14,7 @@ public typealias Byte = UInt8
 /// Array of unsigned 8 bit values
 public typealias Bytes = [UInt8]
 
-public struct Dilithium {
+public struct Dilithium : Sendable{
     
     /// The Dilithium D2 instance
     public static let D2 = Dilithium(DilithiumParameters.D2)
