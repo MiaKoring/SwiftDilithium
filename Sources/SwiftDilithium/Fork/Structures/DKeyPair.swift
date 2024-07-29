@@ -6,6 +6,6 @@
 //
 
 public struct DKeyPair {
-    let sec: SecretKey
-    let pub: PublicKey
+    public let sec: SecretKey
+    public let pub: PublicKey
 }
